@@ -34,7 +34,7 @@ text-overflow: ellipsis;
 `
 
 const Card = styled.div`
-    width: 650px;
+    width: 1050px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
@@ -127,6 +127,19 @@ const Skills = styled.div`
     margin-top: -10px;
 `
 
+const Archivements = styled.div`
+    width: 100%;
+    gap: 12px;
+    margin-top: -10px;
+`
+
+const ArchivementWrapper = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    gap: 8px;
+`
+
 const ItemWrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -167,10 +180,23 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
+                    </>
+                }
+                {experience?.archivements &&
+                    <>
+                        <br />
+                        <Archivements>
+                            <div>Archivements:</div>
+                            <ArchivementWrapper>
+                                {experience?.archivements?.map((archivement, index) => (
+                                    <Skill key={index}>• {archivement}</Skill>
+                                ))}
+                            </ArchivementWrapper>
+                        </Archivements>
                     </>
                 }
             </Description>
