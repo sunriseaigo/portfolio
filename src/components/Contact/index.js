@@ -138,6 +138,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         "service_tox7kqs",

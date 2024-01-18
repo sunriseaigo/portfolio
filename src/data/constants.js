@@ -83,11 +83,19 @@ export const skills = [
         name: "Chackra UI",
         image: "./logo/icons8-chakra-60.png",
       },
+      {
+        name: "Web3",
+        image: "./logo/web-3-icon.png",
+      },
     ],
   },
   {
     title: "Backend",
     skills: [
+      {
+        name: "Solidity",
+        image: "./logo/icons8-solidity-96.png",
+      },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -141,6 +149,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
+
       // {
       //   name: "Firebase",
       //   image: "./logo/1175544_firebase_google_icon.png",
@@ -275,7 +284,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "./project/rubylogohi.png",
     role: "Senior Frontend Engineer",
     company: "Ruby Exchange",
     date: "July 2022 - July 2023",
@@ -302,7 +311,7 @@ export const experiences = [
 
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: "./project/logo_blue.svg",
     role: "Software Engineer",
     company: "Venngage",
     date: "December 2020 - December 2022",
@@ -457,6 +466,7 @@ export const projects = [
     github: "https://github.com/sunrise/project-manage-app",
     webapp: "https://vexa-app.netlify.app/",
   },
+
   {
     id: 2,
     title: "Brain Tumor Detection",
@@ -484,7 +494,100 @@ export const projects = [
     //   },
     // ],
   },
+  {
+    id: 8,
+    title: "3D Photo Logo",
+    date: "Sep 2022",
+    description:
+      "A captivating 3D image of a mobile phone, highlighting the concept of 4G technology. The design showcases modernity and innovation, capturing the essence of cutting-edge mobile connectivity.",
+    image: "./project/third-image.jpg",
+    tags: ["Photoshop", "Illustrator"],
+    category: "ui design",
+    // github: "https://github.com/sunrise208/face-recod-python",
+    // webapp: "",
+  },
+  {
+    id: 4,
+    title: "BlockFish",
+    date: "Sep 2022",
+    description:
+      "Blockfish is a blockchain game development company founded in 2018. Since its inception, the company has not only developed its own game titles but also built its own metaverse platform, providing ample opportunities for blockchain game development.",
+    image: "./project/blockfish.png",
+    tags: [
+      "React Js",
+      "Node Js",
+      "Web3",
+      "Typescript",
+      "Subgraph",
+      "GraphQL",
+      "Docker",
+      "TailwindCSS",
+    ],
+    category: "blockchain",
+    // github: "https://github.com/sunrise208/whatsapp-react",
+    webapp: "https://www.blockfish.io/",
+  },
 
+  {
+    id: 8,
+    title: "Bird's Family",
+    date: "Aug 2022",
+    description:
+      "The advertisement of cartoon-'Adventure in Rio'. It describes happy family.",
+    image: "./project/screenshot.png",
+    tags: ["Photoshop", "Html", "Css", "Javascript"],
+    category: "ui design",
+    // github: "https://github.com/sunrise208/face-recod-python",
+    // webapp: "",
+  },
+  {
+    id: 4,
+    title: "SkyLaunch",
+    date: "June 2022",
+    description:
+      "SkyLaunch is a decentralized Initial DEX Offering (IDO) platform that enables startups to raise capital and launch their projects on the Binance Smart Chain (BSC). It provides a secure and transparent platform for both project owners and investors, ensuring that all transactions are conducted fairly and efficiently.",
+    image: "./project/skylaunch.png",
+    tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
+    category: "blockchain",
+    // github: "https://github.com/sunrise208/whatsapp-react",
+    webapp: "https://skylaunch.finance/",
+  },
+  {
+    id: 5,
+    title: "Todo Web App",
+    date: "Feb 20202",
+    description:
+      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
+    image: "./project/123.png",
+    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+    category: "web app",
+    github: "https://github.com/sunrise208/react-todo",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "KRAI Web Design",
+    date: "Apr 2022",
+    description:
+      "A Web site providing camping, sightseeing and hiking. It has several pages and beautiful animations",
+    image: "./project/KRAI Web Design.gif",
+    tags: ["Photoshop", "Html", "Css", "Javascript"],
+    category: "ui design",
+    // github: "https://github.com/sunrise208/face-recod-python",
+    // webapp: "",
+  },
+  {
+    id: 4,
+    title: "CookFinance",
+    date: "Jan 2022",
+    description:
+      "Cook Finance is a platform that makes it easy to access and participate in the exciting world of decentralized finance. Our cross-chain platform enables a wide range of people from all over the world to easily select or create indexes in a simple to use platform.",
+    image: "./project/cook.finance.png",
+    tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
+    category: "blockchain",
+    // github: "https://github.com/sunrise208/whatsapp-react",
+    webapp: "https://cook.finance/",
+  },
   {
     id: 4,
     title: "Whatsapp Clone",
@@ -498,18 +601,7 @@ export const projects = [
     github: "https://github.com/sunrise208/whatsapp-react",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
-  {
-    id: 5,
-    title: "Todo Web App",
-    date: "Jun 2021",
-    description:
-      " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
-    image: "./project/123.png",
-    tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-    category: "web app",
-    github: "https://github.com/sunrise208/react-todo",
-    webapp: "https://rishav-react-todo.netlify.app/",
-  },
+
   {
     id: 6,
     title: "Breaking Bad",
@@ -566,42 +658,6 @@ export const projects = [
     description: "A beautiful and smart bottle logo.",
     image: "./project/12.jpg",
     tags: ["Photoshop", "Illustrator"],
-    category: "ui design",
-    // github: "https://github.com/sunrise208/face-recod-python",
-    // webapp: "",
-  },
-  {
-    id: 8,
-    title: "3D Photo Logo",
-    date: "Jan 2021",
-    description:
-      "A captivating 3D image of a mobile phone, highlighting the concept of 4G technology. The design showcases modernity and innovation, capturing the essence of cutting-edge mobile connectivity.",
-    image: "./project/third-image.jpg",
-    tags: ["Photoshop", "Illustrator"],
-    category: "ui design",
-    // github: "https://github.com/sunrise208/face-recod-python",
-    // webapp: "",
-  },
-  {
-    id: 8,
-    title: "KRAI Web Design",
-    date: "Jan 2021",
-    description:
-      "A Web site providing camping, sightseeing and hiking. It has several pages and beautiful animations",
-    image: "./project/KRAI Web Design.gif",
-    tags: ["Photoshop", "Html", "Css", "Javascript"],
-    category: "ui design",
-    // github: "https://github.com/sunrise208/face-recod-python",
-    // webapp: "",
-  },
-  {
-    id: 8,
-    title: "Bird's Family",
-    date: "Jan 2021",
-    description:
-      "The advertisement of cartoon-'Adventure in Rio'. It describes happy family.",
-    image: "./project/screenshot.png",
-    tags: ["Photoshop", "Html", "Css", "Javascript"],
     category: "ui design",
     // github: "https://github.com/sunrise208/face-recod-python",
     // webapp: "",

@@ -95,7 +95,7 @@ function Footer() {
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
         </Nav>
-        <SocialMediaIcons>
+        {/* <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
             <FacebookIcon />
           </SocialMediaIcon>
@@ -108,7 +108,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display">
             <InstagramIcon />
           </SocialMediaIcon>
-        </SocialMediaIcons>
+        </SocialMediaIcons> */}
         <Copyright>&copy; 2023 Milijan Popolic. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>

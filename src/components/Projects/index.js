@@ -81,6 +81,23 @@ const Projects = ({ openModal, setOpenModal }) => {
               Artificial Intelligence
             </ToggleButton>
           )}
+          <Divider />
+          {toggle === "blockchain" ? (
+            <ToggleButton
+              active
+              value="blockchain"
+              onClick={() => setToggle("blockchain")}
+            >
+              BlockChain
+            </ToggleButton>
+          ) : (
+            <ToggleButton
+              value="blockchain"
+              onClick={() => setToggle("blockchain")}
+            >
+              BlockChain
+            </ToggleButton>
+          )}
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
@@ -93,7 +110,7 @@ const Projects = ({ openModal, setOpenModal }) => {
               />
             ))}
           {projects
-            .filter((item) => item.category == toggle)
+            .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
                 project={project}
