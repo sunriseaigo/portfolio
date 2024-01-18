@@ -40,11 +40,11 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="web app"
               onClick={() => setToggle("web app")}
             >
-              WEB APP'S
+              WEB APP
             </ToggleButton>
           ) : (
             <ToggleButton value="web app" onClick={() => setToggle("web app")}>
-              WEB APP'S
+              WEB APP
             </ToggleButton>
           )}
           <Divider />
@@ -54,14 +54,14 @@ const Projects = ({ openModal, setOpenModal }) => {
               value="ui design"
               onClick={() => setToggle("ui design")}
             >
-              UI-UX Design
+              UI/UX Design
             </ToggleButton>
           ) : (
             <ToggleButton
               value="ui design"
               onClick={() => setToggle("ui design")}
             >
-              UI-UX Design
+              UI/UX Design
             </ToggleButton>
           )}
           <Divider />
