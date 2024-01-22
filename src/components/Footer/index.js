@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Milijan Popolic</Logo>
+        <Logo>Nick Bozikovski</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -109,7 +109,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons> */}
-        <Copyright>&copy; 2023 Milijan Popolic. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Nick Bozikovski. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

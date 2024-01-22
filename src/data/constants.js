@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "Milijan Popolic",
+  name: "Nick Bozikovski",
   roles: [
     "Full Stack Developer",
     "AI/ML Engineer",
@@ -449,7 +449,7 @@ export const projects = [
   {
     id: 4,
     title: "SkyLaunch",
-    date: "June 2022",
+    date: "June 2023",
     description:
       "SkyLaunch is a decentralized Initial DEX Offering (IDO) platform that enables startups to raise capital and launch their projects on the Binance Smart Chain (BSC). It provides a secure and transparent platform for both project owners and investors, ensuring that all transactions are conducted fairly and efficiently.",
     image: "./project/skylaunch.png",
@@ -518,7 +518,7 @@ export const projects = [
     webapp: "https://podstream.netlify.app/",
     // member: [
     //   {
-    //     name: "Milijan Popolic",
+    //     name: "Nick Bozikovski",
     //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
     //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     //     github: "https://github.com/rishavchanda/",
@@ -566,7 +566,7 @@ export const projects = [
     webapp: "https://brain-tumor.netlify.app/",
     // member: [
     //   {
-    //     name: "Milijan Popolic",
+    //     name: "Nick Bozikovski",
     //     img: "https://avatars.githubusercontent.com/u/64485885?v=4",
     //     linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
     //     github: "https://github.com/rishavchanda/",
