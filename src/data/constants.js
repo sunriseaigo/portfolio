@@ -452,7 +452,7 @@ export const projects = [
     date: "June 2023",
     description:
       "SkyLaunch is a decentralized Initial DEX Offering (IDO) platform that enables startups to raise capital and launch their projects on the Binance Smart Chain (BSC). It provides a secure and transparent platform for both project owners and investors, ensuring that all transactions are conducted fairly and efficiently.",
-    image: "./project/skylaunch.png",
+    image: "./project/2.png",
     tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
     category: "blockchain",
     // github: "https://github.com/sunrise208/whatsapp-react",
@@ -464,7 +464,7 @@ export const projects = [
     date: "Sep 2023",
     description:
       "Blockfish is a blockchain game development company founded in 2018. Since its inception, the company has not only developed its own game titles but also built its own metaverse platform, providing ample opportunities for blockchain game development.",
-    image: "./project/blockfish.png",
+    image: "./project/1.png",
     tags: [
       "React Js",
       "Node Js",
@@ -634,7 +634,7 @@ export const projects = [
     date: "Jan 2022",
     description:
       "Cook Finance is a platform that makes it easy to access and participate in the exciting world of decentralized finance. Our cross-chain platform enables a wide range of people from all over the world to easily select or create indexes in a simple to use platform.",
-    image: "./project/cook.finance.png",
+    image: "./project/3.png",
     tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
     category: "blockchain",
     // github: "https://github.com/sunrise208/whatsapp-react",
