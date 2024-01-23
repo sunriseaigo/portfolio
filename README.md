@@ -51,3 +51,10 @@ Contributions are welcome! If you'd like to contribute to My Portfolio, please f
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any questions or inquiries, please reach out to the development team at [sunrise96208@gmail.com]
+
+Enjoy using my project and stay productive!
+
