@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Nick Bozikovski</Logo>
+        <Logo>Andrii Kyryichuk</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -109,7 +109,9 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons> */}
-        <Copyright>&copy; 2024 Nick Bozikovski. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; 2024 Andrii Kyryichuk. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
