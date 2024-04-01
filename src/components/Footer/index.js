@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Mykyta Belyaev</Logo>
+        <Logo>Andrii Kyryichuk</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -110,7 +110,7 @@ function Footer() {
           </SocialMediaIcon>
         </SocialMediaIcons> */}
         <Copyright>
-          &copy; 2024 Mykyta Belyaev. All rights reserved.
+          &copy; 2024 Andrii Kyryichuk. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
