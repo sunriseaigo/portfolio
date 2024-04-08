@@ -8,7 +8,7 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/sunriseaigo",
+  github: "https://github.com/lovin1015",
   resume:
     // "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
     "#",
@@ -458,7 +458,6 @@ export const projects = [
     image: "./project/2.png",
     tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
     category: "blockchain",
-    // github: "https://github.com/sunriseaigo/whatsapp-react",
     webapp: "https://skylaunch.finance/",
   },
   {
@@ -479,7 +478,6 @@ export const projects = [
       "TailwindCSS",
     ],
     category: "blockchain",
-    // github: "https://github.com/sunriseaigo/whatsapp-react",
     webapp: "https://www.blockfish.io/",
   },
   {
@@ -504,7 +502,7 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    github: "https://github.com/sunriseaigo/trackify",
+    github: "https://github.com/lovin1015",
     webapp: "https://trackify.duckdns.org",
   },
   {
@@ -517,7 +515,7 @@ export const projects = [
       "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
     tags: ["React Js", "MongoDB", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/sunriseaigo/podstream",
+    github: "https://github.com/lovin1015",
     webapp: "https://podstream.netlify.app/",
     // member: [
     //   {
@@ -551,7 +549,7 @@ export const projects = [
       "NodeMailer",
     ],
     category: "web app",
-    github: "https://github.com/sunriseaigo/project-manage-app",
+    github: "https://github.com/lovin1015",
     webapp: "https://vexa-app.netlify.app/",
   },
 
@@ -591,8 +589,6 @@ export const projects = [
     image: "./project/third-image.jpg",
     tags: ["Photoshop", "Illustrator"],
     category: "ui design",
-    // github: "https://github.com/sunriseaigo/face-recod-python",
-    // webapp: "",
   },
   {
     id: 8,
@@ -603,8 +599,6 @@ export const projects = [
     image: "./project/screenshot.png",
     tags: ["Photoshop", "Html", "Css", "Javascript"],
     category: "ui design",
-    // github: "https://github.com/sunriseaigo/face-recod-python",
-    // webapp: "",
   },
 
   {
@@ -616,7 +610,7 @@ export const projects = [
     image: "./project/123.png",
     tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
     category: "web app",
-    github: "https://github.com/sunriseaigo/react-todo",
+    github: "https://github.com/lovin1015",
     webapp: "https://rishav-react-todo.netlify.app/",
   },
   {
@@ -628,8 +622,6 @@ export const projects = [
     image: "./project/KRAI Web Design.gif",
     tags: ["Photoshop", "Html", "Css", "Javascript"],
     category: "ui design",
-    // github: "https://github.com/sunriseaigo/face-recod-python",
-    // webapp: "",
   },
   {
     id: 4,
@@ -640,7 +632,6 @@ export const projects = [
     image: "./project/3.png",
     tags: ["Solidity", "React Js", "Web3", "Typescript", "Git"],
     category: "blockchain",
-    // github: "https://github.com/sunriseaigo/whatsapp-react",
     webapp: "https://cook.finance/",
   },
   {
@@ -653,7 +644,7 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
     tags: ["React Js", "Firebase", "Firestore", "Node JS"],
     category: "web app",
-    github: "https://github.com/sunriseaigo/whatsapp-react",
+    github: "https://github.com/lovin1015",
     webapp: "https://whatsapp-clone-rishav.web.app",
   },
 
@@ -666,7 +657,7 @@ export const projects = [
     image: "./project/234.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
-    github: "https://github.com/sunriseaigo/breaking-bad-web",
+    github: "https://github.com/lovin1015",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
   {
@@ -678,24 +669,9 @@ export const projects = [
     image: "./project/49451dbms1.jpg",
     tags: ["React Js", "API", "Axios", "Node JS", "Express.js", "MongoDB"],
     category: "web app",
-    // github: "https://github.com/sunriseaigo/breaking-bad-web",
-    // webapp: "https://breaking-bad-webapp.netlify.app",
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
   {
-    id: 8,
+    id: 7,
     title: "Face Recognition",
     date: "Jan 2021",
     description:
@@ -703,8 +679,7 @@ export const projects = [
     image: "./project/face-recognition.jpg",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
-    github: "https://github.com/sunriseaigo/face-recod-python",
-    // webapp: "",
+    github: "https://github.com/lovin1015",
   },
   {
     id: 8,
@@ -714,8 +689,6 @@ export const projects = [
     image: "./project/12.jpg",
     tags: ["Photoshop", "Illustrator"],
     category: "ui design",
-    // github: "https://github.com/sunriseaigo/face-recod-python",
-    // webapp: "",
   },
 ];
 
